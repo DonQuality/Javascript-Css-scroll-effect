@@ -1,4 +1,5 @@
-var pagetop, menu, yPos;
+var pagetop, menu, yPos, user;
+
 function yScroll(){
   pagetop = document.getElementById('pageTop');
   menu = document.getElementById('menu');
@@ -16,4 +17,6 @@ function yScroll(){
     menu.style.color = "black";
   }
 }
+alert('Welcome to this Javascript and CSS test\nhope you like it, \n\nQuality Webz 2015');
+alert('Scroll Up and Down and watch the header and \nsub header do their thing');
 window.addEventListener('scroll', yScroll);
