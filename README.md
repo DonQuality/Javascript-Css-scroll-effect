@@ -8,4 +8,4 @@
 
   * Fast and Cool
 
-* ##### Quality Webz 2015. </;)> *
+##### Quality Webz 2015. </;)>
