@@ -1,0 +1,43 @@
+body{
+  color: rgb(76, 31, 31);
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+#pageTop{
+  background-color: rgba(47, 35, 35, 0.91);
+  height: 8rem;
+  left: 0;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  transition: height 0.5s, padding 1s, color 5s;
+  width: 100%;
+  z-index: 10000;
+
+  #menu{
+    background-color: rgb(86, 178, 86);
+    bottom: 0rem;
+    height: 4rem;
+    left: 0;
+    position: absolute;
+    transition: height 0.5s, color 2s;
+    width: 100%;
+  }
+
+}
+
+#diqueContent{
+  color: rgb(97, 80, 98);
+  background-color: azure - 20;
+  height: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+p{
+  margin-bottom: 0.2rem;
+  position: relative;
+}
